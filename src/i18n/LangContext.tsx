@@ -34,7 +34,7 @@ export function LangProvider({ children }: { children: ReactNode }) {
     } catch {
       /* localStorage unavailable */
     }
-    return "en";
+    return "ar"; // Arabic is the default; a visitor's toggle is remembered.
   });
 
   const t = DICTIONARY[lang];
