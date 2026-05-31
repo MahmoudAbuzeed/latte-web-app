@@ -224,7 +224,7 @@ html[dir="rtl"] .process-line-fill { left: auto; right: 0; }
   font-family: var(--serif); font-size: 20px; color: var(--gold-bright);
   position: relative; z-index: 2; transition: all 0.5s var(--ease);
 }
-.pstep.lit .pstep-dot { border-color: var(--gold); background: linear-gradient(160deg, var(--cocoa-700), var(--cocoa-900)); box-shadow: 0 0 0 6px var(--gold-soft); }
+.process-track.lit .pstep-dot { border-color: var(--gold); background: linear-gradient(160deg, var(--cocoa-700), var(--cocoa-900)); box-shadow: 0 0 0 6px var(--gold-soft); }
 .pstep h4 { font-size: 19px; color: var(--cream); margin-top: 20px; }
 .pstep p { font-size: 13.5px; color: var(--cream-faint); margin-top: 8px; line-height: 1.55; }
 
